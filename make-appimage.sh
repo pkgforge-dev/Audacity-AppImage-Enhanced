@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/audacity.desktop
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
 export ALWAYS_SOFTWARE=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/audacity /usr/share/audacity*
