@@ -10,10 +10,10 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/audacity.svg
 export DESKTOP=/usr/share/applications/audacity.desktop
-export DEPLOY_GTK=1
-export GTK_DIR=gtk-3.0
 export ALWAYS_SOFTWARE=1
 export DEPLOY_PIPEWIRE=1
+export DEPLOY_GTK=1
+export GTK_DIR=gtk-3.0
 
 # Deploy dependencies
 quick-sharun /usr/bin/audacity /usr/share/audacity*
