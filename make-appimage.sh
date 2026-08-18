@@ -11,11 +11,12 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/audacity.svg
 export ALWAYS_SOFTWARE=1
 export DEPLOY_PIPEWIRE=1
-export DEPLOY_GTK=1
-export GTK_DIR=gtk-3.0
 
 # Deploy dependencies
-quick-sharun /usr/bin/audacity /usr/share/audacity*
+quick-sharun \
+	/usr/bin/audacity \
+	/usr/lib/audacity \
+	/usr/share/audacity
 
 # Additional changes can be done in between here
 
